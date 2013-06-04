@@ -1,0 +1,10 @@
+#include<iostream>
+SWAP(a,b) (a^=b^=a^=b)
+using namespace std;
+int main()
+{
+  int a=4,b=5;
+  cout<<"before swap:\na="<<a<<"\nb="<<b<<endl;
+  SWAP(a,b);
+  cout<<"after swap:\na="<<a<<"\nb="<<b<<endl;
+}
