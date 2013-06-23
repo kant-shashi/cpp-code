@@ -19,6 +19,8 @@
 #include <wchar.h>
 #include <stddef.h>
 #include <cassert>
+#include <fstream>
+#include <cmath>
 
 using namespace std;
 
